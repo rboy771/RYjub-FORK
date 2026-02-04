@@ -1,0 +1,38 @@
+00:00:00.231 |I| Configuration LogValueChange: ResScale set to: 2
+00:00:00.235 |I| Configuration LogValueChange: ResScaleCustom set to: 1
+00:00:00.235 |I| Configuration LogValueChange: MaxAnisotropy set to: -1
+00:00:00.236 |I| Configuration LogValueChange: AspectRatio set to: Fixed16x9
+00:00:00.236 |I| Configuration LogValueChange: GraphicsBackend set to: OpenGl
+00:00:00.237 |I| Configuration LogValueChange: PreferredGpu set to: 0x1002_0x747E
+00:00:00.237 |I| Configuration LogValueChange: ScalingFilterLevel set to: 80
+00:00:00.237 |I| Configuration LogValueChange: CustomVSyncInterval set to: 120
+00:00:00.237 |I| Configuration LogValueChange: EnableShaderCache set to: True
+00:00:00.237 |I| Configuration LogValueChange: EnableMacroHLE set to: True
+00:00:00.238 |I| Configuration LogValueChange: Language set to: AmericanEnglish
+00:00:00.238 |I| Configuration LogValueChange: Region set to: USA
+00:00:00.238 |I| Configuration LogValueChange: TimeZone set to: UTC
+00:00:00.239 |I| Configuration LogValueChange: SystemTimeOffset set to: -3747
+00:00:00.239 |I| Configuration LogValueChange: EnableDockedMode set to: True
+00:00:00.239 |I| Configuration LogValueChange: EnablePtc set to: True
+00:00:00.352 |I| Configuration LogValueChange: TickScalar set to: 50
+00:00:00.353 |I| Configuration LogValueChange: EnableFsIntegrityChecks set to: True
+00:00:00.354 |I| Configuration LogValueChange: AudioBackend set to: SDL3
+00:00:00.354 |I| Configuration LogValueChange: AudioVolume set to: 1
+00:00:00.354 |I| Configuration LogValueChange: MemoryManagerMode set to: HostMappedUnsafe
+00:00:00.354 |I| Configuration LogValueChange: UseHypervisor set to: True
+00:00:00.419 |I| Configuration LogValueChange: LdnPassphrase set to: 
+00:00:00.419 |I| Configuration LogValueChange: LdnServer set to: 
+00:00:00.419 |I| Configuration LogValueChange: GdbStubPort set to: 55555
+00:00:00.424 |N| Application PrintSystemInfo:    ___                 __    _              
+00:00:00.424 |N| Application PrintSystemInfo:   / _ \  __ __ __ __  / /   (_)  ___   ___ _
+00:00:00.424 |N| Application PrintSystemInfo:  / , _/ / // // // / / _ \ / /  / _ \ / _ `/
+00:00:00.424 |N| Application PrintSystemInfo: /_/|_|  \_, / \_,_/ /_.__//_/  /_//_/ \_, / 
+00:00:00.424 |N| Application PrintSystemInfo:        /___/                         /___/  
+00:00:00.424 |N| Application PrintSystemInfo: Ryujinx Version: 1.0.0-dirty+5fdbd0aaa61e03f5c02a83193d5b920083eefd56
+00:00:00.424 |N| Application PrintSystemInfo: .NET Runtime: .NET 9.0.12
+00:00:00.426 |N| Application PrintSystemInfo: Operating System: Microsoft Windows 10.0.26200 (X64)
+00:00:00.426 |N| Application PrintSystemInfo: CPU: AMD Ryzen 7 7800X3D 8-Core Processor ; 16 logical
+00:00:00.427 |N| Application PrintSystemInfo: RAM: Total 31.2 GiB ; Available 11.6 GiB
+00:00:00.428 |N| Application PrintSystemInfo: Logs Enabled: Info, Warning, Error, Guest, Stub
+00:00:00.429 |N| Application PrintSystemInfo: Launch Mode: UserProfile
+00:00:02.986 |W| Application SetWindowSizePosition: Failed to find valid start-up coordinates. Defaulting to primary monitor center.

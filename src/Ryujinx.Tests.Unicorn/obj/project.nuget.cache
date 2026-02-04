@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "AU58ndu3Wf4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Tests.Unicorn\\Ryujinx.Tests.Unicorn.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Robert flores\\.nuget\\packages\\fsharp.core\\7.0.200\\fsharp.core.7.0.200.nupkg.sha512",
+    "C:\\Users\\Robert flores\\.nuget\\packages\\unicornengine.unicorn\\2.0.2-rc1-fb78016\\unicornengine.unicorn.2.0.2-rc1-fb78016.nupkg.sha512"
+  ],
+  "logs": []
+}

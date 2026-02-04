@@ -1,0 +1,301 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "FSharp.Core/7.0.200": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/FSharp.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/FSharp.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/netstandard2.1/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.1/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.1/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.1/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.1/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.1/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.1/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.1/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.1/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.1/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.1/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "UnicornEngine.Unicorn/2.0.2-rc1-fb78016": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "7.0.200"
+        },
+        "compile": {
+          "lib/net6.0/UnicornEngine.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/UnicornEngine.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libunicorn.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-ppc64le/native/libunicorn.so": {
+            "assetType": "native",
+            "rid": "linux-ppc64le"
+          },
+          "runtimes/linux-x64/native/libunicorn.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/libunicorn.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/unicorn.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/unicorn.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FSharp.Core/7.0.200": {
+      "sha512": "NmgUnpNH6Zu9B0SPIhojyo38gnPdkdYFYQfbd6zosEH32kbGY/g/Klk7PfOWe1NAe/O1YOMmK9KhwQ2OWsWEbg==",
+      "type": "package",
+      "path": "fsharp.core/7.0.200",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "fsharp.core.7.0.200.nupkg.sha512",
+        "fsharp.core.nuspec",
+        "lib/netstandard2.0/FSharp.Core.dll",
+        "lib/netstandard2.0/FSharp.Core.xml",
+        "lib/netstandard2.0/cs/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/de/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/es/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/fr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/it/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ja/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ko/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pl/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pt-BR/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ru/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/tr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hans/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/FSharp.Core.dll",
+        "lib/netstandard2.1/FSharp.Core.xml",
+        "lib/netstandard2.1/cs/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/de/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/es/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/fr/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/it/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/ja/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/ko/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/pl/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/pt-BR/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/ru/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/tr/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll"
+      ]
+    },
+    "UnicornEngine.Unicorn/2.0.2-rc1-fb78016": {
+      "sha512": "Y0u+qjIhcSW4r6HnQuLMeXIGkpzwSeVhcc+w5m5r9vkpqEpm640+ztPTE7pqRFvs5OBhcMJ6e03VQhlhHy+A3w==",
+      "type": "package",
+      "path": "unicornengine.unicorn/2.0.2-rc1-fb78016",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/UnicornEngine.dll",
+        "lib/net6.0/UnicornEngine.xml",
+        "runtimes/linux-arm64/native/libunicorn.so",
+        "runtimes/linux-ppc64le/native/libunicorn.so",
+        "runtimes/linux-x64/native/libunicorn.so",
+        "runtimes/osx-x64/native/libunicorn.dylib",
+        "runtimes/win-x64/native/unicorn.dll",
+        "runtimes/win-x86/native/unicorn.dll",
+        "unicornengine.unicorn.2.0.2-rc1-fb78016.nupkg.sha512",
+        "unicornengine.unicorn.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "UnicornEngine.Unicorn >= 2.0.2-rc1-fb78016"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Robert flores\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Tests.Unicorn\\Ryujinx.Tests.Unicorn.csproj",
+      "projectName": "Ryujinx.Tests.Unicorn",
+      "projectPath": "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Tests.Unicorn\\Ryujinx.Tests.Unicorn.csproj",
+      "packagesPath": "C:\\Users\\Robert flores\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Tests.Unicorn\\obj\\",
+      "projectStyle": "PackageReference",
+      "centralPackageVersionsManagementEnabled": true,
+      "configFilePaths": [
+        "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\NuGet.Config",
+        "C:\\Users\\Robert flores\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://git.ryujinx.app/api/v4/projects/17/packages/nuget/index.json": {},
+        "https://git.ryujinx.app/api/v4/projects/71/packages/nuget/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "dependencies": {
+          "UnicornEngine.Unicorn": {
+            "target": "Package",
+            "version": "[2.0.2-rc1-fb78016, )",
+            "versionCentrallyManaged": true
+          }
+        },
+        "centralPackageVersions": {
+          "Avalonia": "11.3.6",
+          "Avalonia.Controls.DataGrid": "11.3.6",
+          "Avalonia.Desktop": "11.3.6",
+          "Avalonia.Diagnostics": "11.3.6",
+          "Avalonia.Markup.Xaml.Loader": "11.3.6",
+          "CommandLineParser": "2.9.1",
+          "CommunityToolkit.Mvvm": "8.4.0",
+          "Concentus": "2.2.2",
+          "DiscordRichPresence": "1.6.1.70",
+          "DynamicData": "9.4.1",
+          "FluentAvaloniaUI.NoAnim": "2.4.0-build3",
+          "Gommon": "2.8.0.1",
+          "Humanizer": "2.14.1",
+          "Microsoft.Build.Framework": "17.11.4",
+          "Microsoft.Build.Utilities.Core": "17.12.6",
+          "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+          "Microsoft.CodeAnalysis.CSharp": "4.9.2",
+          "Microsoft.IdentityModel.JsonWebTokens": "8.3.0",
+          "Microsoft.IO.RecyclableMemoryStream": "3.0.1",
+          "Microsoft.NET.Test.Sdk": "17.9.0",
+          "MsgPack.Cli": "1.0.1",
+          "NetCoreServer": "8.0.7",
+          "Newtonsoft.Json": "13.0.3",
+          "NUnit": "3.13.3",
+          "NUnit3TestAdapter": "4.1.0",
+          "Open.NAT.Core": "2.1.0.5",
+          "OpenTK.Audio.OpenAL": "4.8.2",
+          "OpenTK.Core": "4.8.2",
+          "OpenTK.Graphics": "4.8.2",
+          "OpenTK.Windowing.GraphicsLibraryFramework": "4.8.2",
+          "ppy.SDL3-CS": "2025.920.0",
+          "Projektanker.Icons.Avalonia": "9.6.2",
+          "Projektanker.Icons.Avalonia.FontAwesome": "9.6.2",
+          "Projektanker.Icons.Avalonia.MaterialDesign": "9.6.2",
+          "Ryujinx.Audio.OpenAL.Dependencies": "1.21.0.1",
+          "Ryujinx.Graphics.Nvdec.Dependencies.AllArch": "6.1.2-build3",
+          "Ryujinx.Graphics.Vulkan.Dependencies.MoltenVK": "1.2.0",
+          "Ryujinx.LibHac": "0.21.0-alpha.126",
+          "Ryujinx.Systems.Update.Common": "1.0.44",
+          "Ryujinx.UpdateClient": "1.0.44",
+          "securifybv.ShellLink": "0.1.0",
+          "Sep": "0.11.1",
+          "shaderc.net": "0.1.0",
+          "SharpZipLib": "1.4.2",
+          "Silk.NET.Vulkan": "2.22.0",
+          "Silk.NET.Vulkan.Extensions.EXT": "2.22.0",
+          "Silk.NET.Vulkan.Extensions.KHR": "2.22.0",
+          "SkiaSharp": "2.88.9",
+          "SkiaSharp.NativeAssets.Linux": "2.88.9",
+          "SPB": "0.0.4-build32",
+          "Svg.Controls.Avalonia": "11.3.6.2",
+          "Svg.Controls.Skia.Avalonia": "11.3.6.2",
+          "System.IO.Hashing": "9.0.2",
+          "System.Management": "9.0.2",
+          "UnicornEngine.Unicorn": "2.0.2-rc1-fb78016"
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

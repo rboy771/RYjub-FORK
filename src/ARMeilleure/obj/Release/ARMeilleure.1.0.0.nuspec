@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ARMeilleure</id>
+    <version>1.0.0</version>
+    <authors>ARMeilleure</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="5fdbd0aaa61e03f5c02a83193d5b920083eefd56" />
+    <dependencies>
+      <group targetFramework="net9.0">
+        <dependency id="Ryujinx.Memory" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Robert flores\OneDrive\Desktop\SHARING FOLDER\RYJUNIX ROBERT\GIT\RYjub-FORK\src\ARMeilleure\bin\Release\net9.0\ARMeilleure.dll" target="lib\net9.0\ARMeilleure.dll" />
+  </files>
+</package>

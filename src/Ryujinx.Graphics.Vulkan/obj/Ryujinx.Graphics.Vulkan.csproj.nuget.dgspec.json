@@ -1,0 +1,683 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Graphics.Vulkan\\Ryujinx.Graphics.Vulkan.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Common\\Ryujinx.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Common\\Ryujinx.Common.csproj",
+        "projectName": "Ryujinx.Common",
+        "projectPath": "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Common\\Ryujinx.Common.csproj",
+        "packagesPath": "C:\\Users\\Robert flores\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\NuGet.Config",
+          "C:\\Users\\Robert flores\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://git.ryujinx.app/api/v4/projects/17/packages/nuget/index.json": {},
+          "https://git.ryujinx.app/api/v4/projects/71/packages/nuget/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Gommon": {
+              "target": "Package",
+              "version": "[2.8.0.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Humanizer": {
+              "target": "Package",
+              "version": "[2.14.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.IO.RecyclableMemoryStream": {
+              "target": "Package",
+              "version": "[3.0.1, )",
+              "versionCentrallyManaged": true
+            },
+            "MsgPack.Cli": {
+              "target": "Package",
+              "version": "[1.0.1, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Management": {
+              "target": "Package",
+              "version": "[9.0.2, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Avalonia": "11.3.6",
+            "Avalonia.Controls.DataGrid": "11.3.6",
+            "Avalonia.Desktop": "11.3.6",
+            "Avalonia.Diagnostics": "11.3.6",
+            "Avalonia.Markup.Xaml.Loader": "11.3.6",
+            "CommandLineParser": "2.9.1",
+            "CommunityToolkit.Mvvm": "8.4.0",
+            "Concentus": "2.2.2",
+            "DiscordRichPresence": "1.6.1.70",
+            "DynamicData": "9.4.1",
+            "FluentAvaloniaUI.NoAnim": "2.4.0-build3",
+            "Gommon": "2.8.0.1",
+            "Humanizer": "2.14.1",
+            "Microsoft.Build.Framework": "17.11.4",
+            "Microsoft.Build.Utilities.Core": "17.12.6",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.CSharp": "4.9.2",
+            "Microsoft.IdentityModel.JsonWebTokens": "8.3.0",
+            "Microsoft.IO.RecyclableMemoryStream": "3.0.1",
+            "Microsoft.NET.Test.Sdk": "17.9.0",
+            "MsgPack.Cli": "1.0.1",
+            "NetCoreServer": "8.0.7",
+            "Newtonsoft.Json": "13.0.3",
+            "NUnit": "3.13.3",
+            "NUnit3TestAdapter": "4.1.0",
+            "Open.NAT.Core": "2.1.0.5",
+            "OpenTK.Audio.OpenAL": "4.8.2",
+            "OpenTK.Core": "4.8.2",
+            "OpenTK.Graphics": "4.8.2",
+            "OpenTK.Windowing.GraphicsLibraryFramework": "4.8.2",
+            "ppy.SDL3-CS": "2025.920.0",
+            "Projektanker.Icons.Avalonia": "9.6.2",
+            "Projektanker.Icons.Avalonia.FontAwesome": "9.6.2",
+            "Projektanker.Icons.Avalonia.MaterialDesign": "9.6.2",
+            "Ryujinx.Audio.OpenAL.Dependencies": "1.21.0.1",
+            "Ryujinx.Graphics.Nvdec.Dependencies.AllArch": "6.1.2-build3",
+            "Ryujinx.Graphics.Vulkan.Dependencies.MoltenVK": "1.2.0",
+            "Ryujinx.LibHac": "0.21.0-alpha.126",
+            "Ryujinx.Systems.Update.Common": "1.0.44",
+            "Ryujinx.UpdateClient": "1.0.44",
+            "securifybv.ShellLink": "0.1.0",
+            "Sep": "0.11.1",
+            "shaderc.net": "0.1.0",
+            "SharpZipLib": "1.4.2",
+            "Silk.NET.Vulkan": "2.22.0",
+            "Silk.NET.Vulkan.Extensions.EXT": "2.22.0",
+            "Silk.NET.Vulkan.Extensions.KHR": "2.22.0",
+            "SkiaSharp": "2.88.9",
+            "SkiaSharp.NativeAssets.Linux": "2.88.9",
+            "SPB": "0.0.4-build32",
+            "Svg.Controls.Avalonia": "11.3.6.2",
+            "Svg.Controls.Skia.Avalonia": "11.3.6.2",
+            "System.IO.Hashing": "9.0.2",
+            "System.Management": "9.0.2",
+            "UnicornEngine.Unicorn": "2.0.2-rc1-fb78016"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Graphics.GAL\\Ryujinx.Graphics.GAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Graphics.GAL\\Ryujinx.Graphics.GAL.csproj",
+        "projectName": "Ryujinx.Graphics.GAL",
+        "projectPath": "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Graphics.GAL\\Ryujinx.Graphics.GAL.csproj",
+        "packagesPath": "C:\\Users\\Robert flores\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Graphics.GAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\NuGet.Config",
+          "C:\\Users\\Robert flores\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://git.ryujinx.app/api/v4/projects/17/packages/nuget/index.json": {},
+          "https://git.ryujinx.app/api/v4/projects/71/packages/nuget/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Common\\Ryujinx.Common.csproj": {
+                "projectPath": "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Common\\Ryujinx.Common.csproj"
+              },
+              "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Graphics.Shader\\Ryujinx.Graphics.Shader.csproj": {
+                "projectPath": "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Graphics.Shader\\Ryujinx.Graphics.Shader.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "centralPackageVersions": {
+            "Avalonia": "11.3.6",
+            "Avalonia.Controls.DataGrid": "11.3.6",
+            "Avalonia.Desktop": "11.3.6",
+            "Avalonia.Diagnostics": "11.3.6",
+            "Avalonia.Markup.Xaml.Loader": "11.3.6",
+            "CommandLineParser": "2.9.1",
+            "CommunityToolkit.Mvvm": "8.4.0",
+            "Concentus": "2.2.2",
+            "DiscordRichPresence": "1.6.1.70",
+            "DynamicData": "9.4.1",
+            "FluentAvaloniaUI.NoAnim": "2.4.0-build3",
+            "Gommon": "2.8.0.1",
+            "Humanizer": "2.14.1",
+            "Microsoft.Build.Framework": "17.11.4",
+            "Microsoft.Build.Utilities.Core": "17.12.6",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.CSharp": "4.9.2",
+            "Microsoft.IdentityModel.JsonWebTokens": "8.3.0",
+            "Microsoft.IO.RecyclableMemoryStream": "3.0.1",
+            "Microsoft.NET.Test.Sdk": "17.9.0",
+            "MsgPack.Cli": "1.0.1",
+            "NetCoreServer": "8.0.7",
+            "Newtonsoft.Json": "13.0.3",
+            "NUnit": "3.13.3",
+            "NUnit3TestAdapter": "4.1.0",
+            "Open.NAT.Core": "2.1.0.5",
+            "OpenTK.Audio.OpenAL": "4.8.2",
+            "OpenTK.Core": "4.8.2",
+            "OpenTK.Graphics": "4.8.2",
+            "OpenTK.Windowing.GraphicsLibraryFramework": "4.8.2",
+            "ppy.SDL3-CS": "2025.920.0",
+            "Projektanker.Icons.Avalonia": "9.6.2",
+            "Projektanker.Icons.Avalonia.FontAwesome": "9.6.2",
+            "Projektanker.Icons.Avalonia.MaterialDesign": "9.6.2",
+            "Ryujinx.Audio.OpenAL.Dependencies": "1.21.0.1",
+            "Ryujinx.Graphics.Nvdec.Dependencies.AllArch": "6.1.2-build3",
+            "Ryujinx.Graphics.Vulkan.Dependencies.MoltenVK": "1.2.0",
+            "Ryujinx.LibHac": "0.21.0-alpha.126",
+            "Ryujinx.Systems.Update.Common": "1.0.44",
+            "Ryujinx.UpdateClient": "1.0.44",
+            "securifybv.ShellLink": "0.1.0",
+            "Sep": "0.11.1",
+            "shaderc.net": "0.1.0",
+            "SharpZipLib": "1.4.2",
+            "Silk.NET.Vulkan": "2.22.0",
+            "Silk.NET.Vulkan.Extensions.EXT": "2.22.0",
+            "Silk.NET.Vulkan.Extensions.KHR": "2.22.0",
+            "SkiaSharp": "2.88.9",
+            "SkiaSharp.NativeAssets.Linux": "2.88.9",
+            "SPB": "0.0.4-build32",
+            "Svg.Controls.Avalonia": "11.3.6.2",
+            "Svg.Controls.Skia.Avalonia": "11.3.6.2",
+            "System.IO.Hashing": "9.0.2",
+            "System.Management": "9.0.2",
+            "UnicornEngine.Unicorn": "2.0.2-rc1-fb78016"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Graphics.Shader\\Ryujinx.Graphics.Shader.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Graphics.Shader\\Ryujinx.Graphics.Shader.csproj",
+        "projectName": "Ryujinx.Graphics.Shader",
+        "projectPath": "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Graphics.Shader\\Ryujinx.Graphics.Shader.csproj",
+        "packagesPath": "C:\\Users\\Robert flores\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Graphics.Shader\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\NuGet.Config",
+          "C:\\Users\\Robert flores\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://git.ryujinx.app/api/v4/projects/17/packages/nuget/index.json": {},
+          "https://git.ryujinx.app/api/v4/projects/71/packages/nuget/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Common\\Ryujinx.Common.csproj": {
+                "projectPath": "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Common\\Ryujinx.Common.csproj"
+              },
+              "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Spv.Generator\\Spv.Generator.csproj": {
+                "projectPath": "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Spv.Generator\\Spv.Generator.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "centralPackageVersions": {
+            "Avalonia": "11.3.6",
+            "Avalonia.Controls.DataGrid": "11.3.6",
+            "Avalonia.Desktop": "11.3.6",
+            "Avalonia.Diagnostics": "11.3.6",
+            "Avalonia.Markup.Xaml.Loader": "11.3.6",
+            "CommandLineParser": "2.9.1",
+            "CommunityToolkit.Mvvm": "8.4.0",
+            "Concentus": "2.2.2",
+            "DiscordRichPresence": "1.6.1.70",
+            "DynamicData": "9.4.1",
+            "FluentAvaloniaUI.NoAnim": "2.4.0-build3",
+            "Gommon": "2.8.0.1",
+            "Humanizer": "2.14.1",
+            "Microsoft.Build.Framework": "17.11.4",
+            "Microsoft.Build.Utilities.Core": "17.12.6",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.CSharp": "4.9.2",
+            "Microsoft.IdentityModel.JsonWebTokens": "8.3.0",
+            "Microsoft.IO.RecyclableMemoryStream": "3.0.1",
+            "Microsoft.NET.Test.Sdk": "17.9.0",
+            "MsgPack.Cli": "1.0.1",
+            "NetCoreServer": "8.0.7",
+            "Newtonsoft.Json": "13.0.3",
+            "NUnit": "3.13.3",
+            "NUnit3TestAdapter": "4.1.0",
+            "Open.NAT.Core": "2.1.0.5",
+            "OpenTK.Audio.OpenAL": "4.8.2",
+            "OpenTK.Core": "4.8.2",
+            "OpenTK.Graphics": "4.8.2",
+            "OpenTK.Windowing.GraphicsLibraryFramework": "4.8.2",
+            "ppy.SDL3-CS": "2025.920.0",
+            "Projektanker.Icons.Avalonia": "9.6.2",
+            "Projektanker.Icons.Avalonia.FontAwesome": "9.6.2",
+            "Projektanker.Icons.Avalonia.MaterialDesign": "9.6.2",
+            "Ryujinx.Audio.OpenAL.Dependencies": "1.21.0.1",
+            "Ryujinx.Graphics.Nvdec.Dependencies.AllArch": "6.1.2-build3",
+            "Ryujinx.Graphics.Vulkan.Dependencies.MoltenVK": "1.2.0",
+            "Ryujinx.LibHac": "0.21.0-alpha.126",
+            "Ryujinx.Systems.Update.Common": "1.0.44",
+            "Ryujinx.UpdateClient": "1.0.44",
+            "securifybv.ShellLink": "0.1.0",
+            "Sep": "0.11.1",
+            "shaderc.net": "0.1.0",
+            "SharpZipLib": "1.4.2",
+            "Silk.NET.Vulkan": "2.22.0",
+            "Silk.NET.Vulkan.Extensions.EXT": "2.22.0",
+            "Silk.NET.Vulkan.Extensions.KHR": "2.22.0",
+            "SkiaSharp": "2.88.9",
+            "SkiaSharp.NativeAssets.Linux": "2.88.9",
+            "SPB": "0.0.4-build32",
+            "Svg.Controls.Avalonia": "11.3.6.2",
+            "Svg.Controls.Skia.Avalonia": "11.3.6.2",
+            "System.IO.Hashing": "9.0.2",
+            "System.Management": "9.0.2",
+            "UnicornEngine.Unicorn": "2.0.2-rc1-fb78016"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Graphics.Vulkan\\Ryujinx.Graphics.Vulkan.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Graphics.Vulkan\\Ryujinx.Graphics.Vulkan.csproj",
+        "projectName": "Ryujinx.Graphics.Vulkan",
+        "projectPath": "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Graphics.Vulkan\\Ryujinx.Graphics.Vulkan.csproj",
+        "packagesPath": "C:\\Users\\Robert flores\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Graphics.Vulkan\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\NuGet.Config",
+          "C:\\Users\\Robert flores\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://git.ryujinx.app/api/v4/projects/17/packages/nuget/index.json": {},
+          "https://git.ryujinx.app/api/v4/projects/71/packages/nuget/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Common\\Ryujinx.Common.csproj": {
+                "projectPath": "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Common\\Ryujinx.Common.csproj"
+              },
+              "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Graphics.GAL\\Ryujinx.Graphics.GAL.csproj": {
+                "projectPath": "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Ryujinx.Graphics.GAL\\Ryujinx.Graphics.GAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "OpenTK.Windowing.GraphicsLibraryFramework": {
+              "target": "Package",
+              "version": "[4.8.2, )",
+              "versionCentrallyManaged": true
+            },
+            "Silk.NET.Vulkan": {
+              "target": "Package",
+              "version": "[2.22.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Silk.NET.Vulkan.Extensions.EXT": {
+              "target": "Package",
+              "version": "[2.22.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Silk.NET.Vulkan.Extensions.KHR": {
+              "target": "Package",
+              "version": "[2.22.0, )",
+              "versionCentrallyManaged": true
+            },
+            "shaderc.net": {
+              "target": "Package",
+              "version": "[0.1.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Avalonia": "11.3.6",
+            "Avalonia.Controls.DataGrid": "11.3.6",
+            "Avalonia.Desktop": "11.3.6",
+            "Avalonia.Diagnostics": "11.3.6",
+            "Avalonia.Markup.Xaml.Loader": "11.3.6",
+            "CommandLineParser": "2.9.1",
+            "CommunityToolkit.Mvvm": "8.4.0",
+            "Concentus": "2.2.2",
+            "DiscordRichPresence": "1.6.1.70",
+            "DynamicData": "9.4.1",
+            "FluentAvaloniaUI.NoAnim": "2.4.0-build3",
+            "Gommon": "2.8.0.1",
+            "Humanizer": "2.14.1",
+            "Microsoft.Build.Framework": "17.11.4",
+            "Microsoft.Build.Utilities.Core": "17.12.6",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.CSharp": "4.9.2",
+            "Microsoft.IdentityModel.JsonWebTokens": "8.3.0",
+            "Microsoft.IO.RecyclableMemoryStream": "3.0.1",
+            "Microsoft.NET.Test.Sdk": "17.9.0",
+            "MsgPack.Cli": "1.0.1",
+            "NetCoreServer": "8.0.7",
+            "Newtonsoft.Json": "13.0.3",
+            "NUnit": "3.13.3",
+            "NUnit3TestAdapter": "4.1.0",
+            "Open.NAT.Core": "2.1.0.5",
+            "OpenTK.Audio.OpenAL": "4.8.2",
+            "OpenTK.Core": "4.8.2",
+            "OpenTK.Graphics": "4.8.2",
+            "OpenTK.Windowing.GraphicsLibraryFramework": "4.8.2",
+            "ppy.SDL3-CS": "2025.920.0",
+            "Projektanker.Icons.Avalonia": "9.6.2",
+            "Projektanker.Icons.Avalonia.FontAwesome": "9.6.2",
+            "Projektanker.Icons.Avalonia.MaterialDesign": "9.6.2",
+            "Ryujinx.Audio.OpenAL.Dependencies": "1.21.0.1",
+            "Ryujinx.Graphics.Nvdec.Dependencies.AllArch": "6.1.2-build3",
+            "Ryujinx.Graphics.Vulkan.Dependencies.MoltenVK": "1.2.0",
+            "Ryujinx.LibHac": "0.21.0-alpha.126",
+            "Ryujinx.Systems.Update.Common": "1.0.44",
+            "Ryujinx.UpdateClient": "1.0.44",
+            "securifybv.ShellLink": "0.1.0",
+            "Sep": "0.11.1",
+            "shaderc.net": "0.1.0",
+            "SharpZipLib": "1.4.2",
+            "Silk.NET.Vulkan": "2.22.0",
+            "Silk.NET.Vulkan.Extensions.EXT": "2.22.0",
+            "Silk.NET.Vulkan.Extensions.KHR": "2.22.0",
+            "SkiaSharp": "2.88.9",
+            "SkiaSharp.NativeAssets.Linux": "2.88.9",
+            "SPB": "0.0.4-build32",
+            "Svg.Controls.Avalonia": "11.3.6.2",
+            "Svg.Controls.Skia.Avalonia": "11.3.6.2",
+            "System.IO.Hashing": "9.0.2",
+            "System.Management": "9.0.2",
+            "UnicornEngine.Unicorn": "2.0.2-rc1-fb78016"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Spv.Generator\\Spv.Generator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Spv.Generator\\Spv.Generator.csproj",
+        "projectName": "Spv.Generator",
+        "projectPath": "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Spv.Generator\\Spv.Generator.csproj",
+        "packagesPath": "C:\\Users\\Robert flores\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\src\\Spv.Generator\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "C:\\Users\\Robert flores\\OneDrive\\Desktop\\SHARING FOLDER\\RYJUNIX ROBERT\\GIT\\RYjub-FORK\\NuGet.Config",
+          "C:\\Users\\Robert flores\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://git.ryujinx.app/api/v4/projects/17/packages/nuget/index.json": {},
+          "https://git.ryujinx.app/api/v4/projects/71/packages/nuget/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "centralPackageVersions": {
+            "Avalonia": "11.3.6",
+            "Avalonia.Controls.DataGrid": "11.3.6",
+            "Avalonia.Desktop": "11.3.6",
+            "Avalonia.Diagnostics": "11.3.6",
+            "Avalonia.Markup.Xaml.Loader": "11.3.6",
+            "CommandLineParser": "2.9.1",
+            "CommunityToolkit.Mvvm": "8.4.0",
+            "Concentus": "2.2.2",
+            "DiscordRichPresence": "1.6.1.70",
+            "DynamicData": "9.4.1",
+            "FluentAvaloniaUI.NoAnim": "2.4.0-build3",
+            "Gommon": "2.8.0.1",
+            "Humanizer": "2.14.1",
+            "Microsoft.Build.Framework": "17.11.4",
+            "Microsoft.Build.Utilities.Core": "17.12.6",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.CSharp": "4.9.2",
+            "Microsoft.IdentityModel.JsonWebTokens": "8.3.0",
+            "Microsoft.IO.RecyclableMemoryStream": "3.0.1",
+            "Microsoft.NET.Test.Sdk": "17.9.0",
+            "MsgPack.Cli": "1.0.1",
+            "NetCoreServer": "8.0.7",
+            "Newtonsoft.Json": "13.0.3",
+            "NUnit": "3.13.3",
+            "NUnit3TestAdapter": "4.1.0",
+            "Open.NAT.Core": "2.1.0.5",
+            "OpenTK.Audio.OpenAL": "4.8.2",
+            "OpenTK.Core": "4.8.2",
+            "OpenTK.Graphics": "4.8.2",
+            "OpenTK.Windowing.GraphicsLibraryFramework": "4.8.2",
+            "ppy.SDL3-CS": "2025.920.0",
+            "Projektanker.Icons.Avalonia": "9.6.2",
+            "Projektanker.Icons.Avalonia.FontAwesome": "9.6.2",
+            "Projektanker.Icons.Avalonia.MaterialDesign": "9.6.2",
+            "Ryujinx.Audio.OpenAL.Dependencies": "1.21.0.1",
+            "Ryujinx.Graphics.Nvdec.Dependencies.AllArch": "6.1.2-build3",
+            "Ryujinx.Graphics.Vulkan.Dependencies.MoltenVK": "1.2.0",
+            "Ryujinx.LibHac": "0.21.0-alpha.126",
+            "Ryujinx.Systems.Update.Common": "1.0.44",
+            "Ryujinx.UpdateClient": "1.0.44",
+            "securifybv.ShellLink": "0.1.0",
+            "Sep": "0.11.1",
+            "shaderc.net": "0.1.0",
+            "SharpZipLib": "1.4.2",
+            "Silk.NET.Vulkan": "2.22.0",
+            "Silk.NET.Vulkan.Extensions.EXT": "2.22.0",
+            "Silk.NET.Vulkan.Extensions.KHR": "2.22.0",
+            "SkiaSharp": "2.88.9",
+            "SkiaSharp.NativeAssets.Linux": "2.88.9",
+            "SPB": "0.0.4-build32",
+            "Svg.Controls.Avalonia": "11.3.6.2",
+            "Svg.Controls.Skia.Avalonia": "11.3.6.2",
+            "System.IO.Hashing": "9.0.2",
+            "System.Management": "9.0.2",
+            "UnicornEngine.Unicorn": "2.0.2-rc1-fb78016"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

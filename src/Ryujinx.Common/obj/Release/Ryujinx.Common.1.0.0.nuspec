@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Ryujinx.Common</id>
+    <version>1.0.0</version>
+    <authors>Ryujinx.Common</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="5fdbd0aaa61e03f5c02a83193d5b920083eefd56" />
+    <dependencies>
+      <group targetFramework="net9.0">
+        <dependency id="Gommon" version="2.8.0.1" exclude="Build,Analyzers" />
+        <dependency id="Humanizer" version="2.14.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.IO.RecyclableMemoryStream" version="3.0.1" exclude="Build,Analyzers" />
+        <dependency id="MsgPack.Cli" version="1.0.1" exclude="Build,Analyzers" />
+        <dependency id="System.Management" version="9.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Robert flores\OneDrive\Desktop\SHARING FOLDER\RYJUNIX ROBERT\GIT\RYjub-FORK\src\Ryujinx.Common\bin\Release\net9.0\Ryujinx.Common.dll" target="lib\net9.0\Ryujinx.Common.dll" />
+  </files>
+</package>
