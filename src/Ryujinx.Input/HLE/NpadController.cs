@@ -560,12 +560,20 @@ namespace Ryujinx.Input.HLE
                     VibrationValue leftVibrationValue = dualVibrationValue.Item1;
                     VibrationValue rightVibrationValue = dualVibrationValue.Item2;
 
-                    float low = Math.Min(1f, (float)((rightVibrationValue.AmplitudeLow * 0.85 + rightVibrationValue.AmplitudeHigh * 0.15) * controllerConfig.Rumble.StrongRumble));
-                    float high = Math.Min(1f, (float)((leftVibrationValue.AmplitudeLow * 0.15 + leftVibrationValue.AmplitudeHigh * 0.85) * controllerConfig.Rumble.WeakRumble));
+                    // Select vibration based on configured controller type
+                    VibrationValue selectedVibration = controllerConfig.ControllerType switch
+                    {
+                        ConfigControllerType.JoyconLeft => leftVibrationValue,
+                        ConfigControllerType.JoyconRight => rightVibrationValue,
+                        _ => rightVibrationValue  // Default to right for JoyconPair and others
+                    };
+
+                    float low = Math.Min(1f, (float)((selectedVibration.AmplitudeLow * 0.85 + selectedVibration.AmplitudeHigh * 0.15) * controllerConfig.Rumble.StrongRumble));
+                    float high = Math.Min(1f, (float)((selectedVibration.AmplitudeLow * 0.15 + selectedVibration.AmplitudeHigh * 0.85) * controllerConfig.Rumble.WeakRumble));
 
                     _gamepad.Rumble(low, high, uint.MaxValue);
 
-                    Logger.Debug?.Print(LogClass.Hid, $"Effect for {controllerConfig.PlayerIndex} " +
+                    Logger.Debug?.Print(LogClass.Hid, $"Effect for {controllerConfig.PlayerIndex} ({controllerConfig.ControllerType}) " +
                         $"L.low.amp={leftVibrationValue.AmplitudeLow}, " +
                         $"L.high.amp={leftVibrationValue.AmplitudeHigh}, " +
                         $"R.low.amp={rightVibrationValue.AmplitudeLow}, " +

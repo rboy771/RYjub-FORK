@@ -9,6 +9,8 @@ namespace Ryujinx.Input.SDL3
 {
     internal class SDL3JoyConPair(IGamepad left, IGamepad right) : IGamepad
     {
+        private InputConfig _configuration;
+
         public GamepadFeaturesFlag Features => (left?.Features ?? GamepadFeaturesFlag.None) |
                                                (right?.Features ?? GamepadFeaturesFlag.None);
 
@@ -31,6 +33,29 @@ namespace Ryujinx.Input.SDL3
 
         public Vector3 GetMotionData(MotionInputId inputId)
         {
+            // If configured as a specific Joy-Con, only read from that controller
+            if (_configuration?.ControllerType == ControllerType.JoyconLeft)
+            {
+                // For left controller, map secondary inputs to primary
+                return inputId switch
+                {
+                    MotionInputId.Accelerometer or MotionInputId.SecondAccelerometer => left.GetMotionData(MotionInputId.Accelerometer),
+                    MotionInputId.Gyroscope or MotionInputId.SecondGyroscope => left.GetMotionData(MotionInputId.Gyroscope),
+                    _ => Vector3.Zero
+                };
+            }
+            else if (_configuration?.ControllerType == ControllerType.JoyconRight)
+            {
+                // For right controller, map primary inputs to secondary/primary appropriately
+                return inputId switch
+                {
+                    MotionInputId.Accelerometer or MotionInputId.SecondAccelerometer => right.GetMotionData(MotionInputId.Accelerometer),
+                    MotionInputId.Gyroscope or MotionInputId.SecondGyroscope => right.GetMotionData(MotionInputId.Gyroscope),
+                    _ => Vector3.Zero
+                };
+            }
+
+            // Default behavior for JoyconPair: Left from left, Right from right
             return inputId switch
             {
                 MotionInputId.Accelerometer or
@@ -48,6 +73,17 @@ namespace Ryujinx.Input.SDL3
 
         public (float, float) GetStick(StickInputId inputId)
         {
+            // If configured as a specific Joy-Con, only read from that controller
+            if (_configuration?.ControllerType == ControllerType.JoyconLeft)
+            {
+                return left.GetStick(inputId);
+            }
+            else if (_configuration?.ControllerType == ControllerType.JoyconRight)
+            {
+                return right.GetStick(inputId);
+            }
+
+            // Default behavior for JoyconPair: Left reads from left controller, Right from right
             return inputId switch
             {
                 StickInputId.Left => left.GetStick(StickInputId.Left),
@@ -58,11 +94,37 @@ namespace Ryujinx.Input.SDL3
 
         public bool IsPressed(GamepadButtonInputId inputId)
         {
+            // If configured as a specific Joy-Con, only read from that controller
+            if (_configuration?.ControllerType == ControllerType.JoyconLeft)
+            {
+                return left.IsPressed(inputId);
+            }
+            else if (_configuration?.ControllerType == ControllerType.JoyconRight)
+            {
+                return right.IsPressed(inputId);
+            }
+
+            // Default behavior for JoyconPair: read from both controllers
             return left.IsPressed(inputId) || right.IsPressed(inputId);
         }
 
+
         public void Rumble(float lowFrequency, float highFrequency, uint durationMs)
         {
+            // If configured as a specific Joy-Con, only send vibration to that controller
+            if (_configuration?.ControllerType == ControllerType.JoyconLeft)
+            {
+                left.Rumble(lowFrequency, highFrequency, durationMs);
+                return;
+            }
+
+            if (_configuration?.ControllerType == ControllerType.JoyconRight)
+            {
+                right.Rumble(lowFrequency, highFrequency, durationMs);
+                return;
+            }
+
+            // Default behavior for JoyconPair: distribute frequencies
             if (lowFrequency != 0)
             {
                 right.Rumble(lowFrequency, lowFrequency, durationMs);
@@ -82,6 +144,7 @@ namespace Ryujinx.Input.SDL3
 
         public void SetConfiguration(InputConfig configuration)
         {
+            _configuration = configuration;
             left.SetConfiguration(configuration);
             right.SetConfiguration(configuration);
         }
